@@ -1,6 +1,6 @@
 import './user.css';
 import Button from './Button';
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 
 const User = (props) => {
@@ -13,7 +13,7 @@ const User = (props) => {
         </div>
         <p > {user.name}</p>
         <p className="usernameSize">@{user.username}</p>
-        <span><a href="#">http://{user.website}</a></span>
+        <p className="falseLink">http://{user.website}</p>
 
         <Button id={user.id} />
 

@@ -12,3 +12,12 @@ display: flex;
     border-radius: 3px;
     box-shadow: 2px 3px 4px #888888;
 }
+
+.falseLink{
+color: blue;
+font-style: italic;
+font-size: 12px;
+}
+.falseLink:hover{
+    cursor: pointer;
+}
