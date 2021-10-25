@@ -1,0 +1,30 @@
+.user_container{
+    /* height: 200px; */
+    width: 150px;
+    /* border: 1px solid blue; */
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 1px 2px 3px #888888;
+}
+
+.profile{
+    border-radius:50%;
+    /* border:1px solid red; */
+    height: 100px;
+    width: 100px;
+    margin: 15px auto;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileTextSize{
+font-size: 40px;
+}
+
+.usernameSize{
+    font-size: 12px;
+    font-style: italic;
+    color: lightslategrey;
+}

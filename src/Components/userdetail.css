@@ -1,0 +1,14 @@
+.userStyle{
+justify-content: center;
+/* border: 1px solid red; */
+align-items: center;
+max-width: 768px;
+height:100vh;
+margin: auto;
+display: flex;
+
+}
+.shadow{
+    border-radius: 3px;
+    box-shadow: 2px 3px 4px #888888;
+}
