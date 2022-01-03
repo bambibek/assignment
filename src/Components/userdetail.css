@@ -1,16 +1,13 @@
 .userStyle{
-justify-content: center;
-/* border: 1px solid red; */
-align-items: center;
-max-width: 768px;
+
+max-width: 300px;
 height:100vh;
 margin: auto;
-display: flex;
-
+align-items: center;;
 }
 .shadow{
     border-radius: 3px;
-    box-shadow: 2px 3px 4px #888888;
+    box-shadow: 4px 7px 5px #888888;
 }
 
 .falseLink{
@@ -20,4 +17,8 @@ font-size: 12px;
 }
 .falseLink:hover{
     cursor: pointer;
+}
+
+.goBackButton{
+display: block;
 }

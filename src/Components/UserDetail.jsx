@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom'
 import { useState, useEffect } from "react";
 import './userdetail.css'
+import BackButton from './BackButton';
 
 const UserDetail = () => {
 
@@ -9,19 +10,23 @@ const UserDetail = () => {
 
     useEffect(() => {
 
-        fetch(`https://jsonplaceholder.typicode.com/users/${ id }`)
+        fetch(`https://api.openbrewerydb.org/breweries/${ id }`)
             .then((value) => value.json()).then((userVal) => setUser(userVal))
     }, [id])
 
     return <div className="userStyle">
         <div className="shadow">
-            {/* <pre>{JSON.stringify(user)} </pre> */}
-            <p>{user.name}</p>
-            <p>{user.email}</p>
-            <p>{user.phone}</p>
-            <p>{user.website}</p>
+            <p>Name: {user.name}</p>
+            <p>Brewry Type: {user.brewery_type}</p>
+            <p>Street: {user.street}</p>
+            <p>City: {user.city}</p>
+            <p>State: {user.state}</p>
+            <p>County province: {user.county_province}</p>
+            <p>Postal_code: {user.postal_code}</p>
 
         </div>
+
+        <BackButton />
     </div>
 
 }

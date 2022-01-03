@@ -3,11 +3,21 @@ text-align: center;
   max-width: 768px; ;
   min-height:400px; 
   max-height: 1366px;
-  display: flex;
-  justify-content: space-between; 
-  /* border: 1px solid red; */
-  align-items: center;
-  flex-wrap: wrap;
   margin: 50px;
   
 }
+.SearchList {
+  text-align: center; 
+    max-width: 768px; ;
+    min-height:400px; 
+    max-height: 1366px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 50px;
+    
+  }
+
+
+

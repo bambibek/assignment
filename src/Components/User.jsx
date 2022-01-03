@@ -1,23 +1,19 @@
 import './user.css';
 import Button from './Button';
-// import { Link } from "react-router-dom"
 
 
 const User = (props) => {
-
+    //console.log(props)
     let user = props.user;
 
     return <div className="user_container">
-        <div className="profile">
-            <p className="profileTextSize">{user.name.charAt(0)}</p>
-        </div>
-        <p > {user.name}</p>
-        <p className="usernameSize">@{user.username}</p>
-        <p className="falseLink">http://{user.website}</p>
+
+        <p > Name: {user.name}</p>
+        <p>Brewery Type: {user.brewery_type}</p>
+        <p > City: {user.city}</p>
 
         <Button id={user.id} />
 
-        {/* <Link to={`/UserDetail/${ user.id }`}>Details</Link> */}
     </div>
 }
 export default User

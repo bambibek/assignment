@@ -5,13 +5,6 @@ import Home from "./Components/Home";
 
 function App() {
 
-
-
-
-  // console.log(userDetail)
-
-
-
   return (
     <>
 
