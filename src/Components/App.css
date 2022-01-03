@@ -15,8 +15,15 @@ text-align: center;
     flex-wrap: wrap;
     justify-content: space-between; 
     align-items: center;
+    justify-content: center;
     margin: 50px;
     
+  }
+
+  .searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 

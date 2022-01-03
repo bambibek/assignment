@@ -3,6 +3,7 @@
 import './App.css';
 import { useState, useEffect } from "react";
 import SearchList from "./SearchList"
+import BackButton from './BackButton';
 
 
 const Home = () => {
@@ -44,7 +45,7 @@ const Home = () => {
 
     return <div className="App">
 
-        <div>
+        <div className="searchBar">
             <div className="searchContainer">
                 <input className="searchField" type="search" placeholder="please enter City name..." onChange={handleSearch} />
             </div>

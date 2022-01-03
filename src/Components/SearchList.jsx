@@ -14,6 +14,7 @@ const SearchList = ({ userDetail }) => {
                 )
             )}
         </div>
+
     );
 }
 export default SearchList

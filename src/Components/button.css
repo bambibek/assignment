@@ -24,11 +24,10 @@ button:hover{
     background-color: rgba(77, 79, 77, 0.18);
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-    margin-left: 50px;
     height: 20px;
     border-radius: 5px;
-    width: 300px;
+    width: 350px;
   }
    .searchContainer{
-     width: 80%;
+     width: 60%;
    }
